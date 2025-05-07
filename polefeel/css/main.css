@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Rouge+Script&display=swap");
+h1 {
+  display: block;
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  display: block;
+  font-size: 1.75em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  display: block;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  font-size: 1.25em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.admin_element {
+  display: none;
+}
+
+input:focus-visible, textarea:focus-visible {
+  outline: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  padding: 10px 0;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #e0e0e0;
+}
+header .title a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .title h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 2.75rem;
+  cursor: default;
+}
+header .title h1:hover {
+  text-decoration: underline;
+}
+header .menu {
+  margin: 0 0 0 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #efefef;
+  box-shadow: 0 0 8px 0 rgb(170, 170, 170);
+  border-radius: 2.5px;
+}
+header .menu img {
+  width: 35px;
+  height: 35px;
+  transition: all 0.25s ease;
+}
+header .menu .separator {
+  width: 5px;
+  height: 70px;
+  background-color: #e0e0e0;
+}
+header .menu .menu_button {
+  font-size: 1rem;
+  padding: 20px;
+  border: none;
+  transition: all 0.5s ease;
+}
+header .menu .menu_button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5vw;
+}
+header .menu .menu_button:hover {
+  font-size: 1.25rem;
+  transition: all 0.5s ease;
+}
+header .menu .menu_button:hover img {
+  width: 40px;
+  height: 40px;
+  transition: all 0.25s ease;
+}
+header .admin_panel img {
+  width: 40px;
+  height: 40px;
+  transition: all 0.25s ease;
+}
+
+main {
+  width: 100%;
+}
+main .gr {
+  margin: 20vh 10vw;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 20vh;
+}
+main .section {
+  height: 200%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+}
+main .section .road {
+  width: 0.5vw;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #e0e0e0;
+}
+main .section .info_section {
+  width: 25vw;
+}
+main .section .button_section {
+  font-size: 1.25rem;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+main .section .button_section:hover {
+  font-size: 1.5rem;
+  transition: all 0.5s ease;
+}
+main .admin_login_card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(80, 80, 80, 0.75);
+}
+main .admin_login_card form {
+  padding: 30px;
+  width: 25vw;
+  border-radius: 10px;
+  background-color: #efefef;
+  display: grid;
+}
+main .admin_login_card form label {
+  margin: 2.5vh 0 0 0;
+}
+main .admin_login_card form label:first-child {
+  margin: 0;
+}
+main .admin_login_card form .login_button {
+  margin: 2.5vh 0 0 0;
+}
+
+/*# sourceMappingURL=main.css.map */

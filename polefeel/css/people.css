@@ -1,0 +1,149 @@
+.ebantyai {
+  width: 70%;
+  margin: 5vh 0 0 15vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2vh;
+  justify-items: center;
+}
+.ebantyai .eblan_card {
+  padding: 20px;
+  width: 20vw;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 10px;
+  background-color: #e0e0e0;
+}
+.ebantyai .eblan_card li {
+  margin: 2.5vh 0 0 0;
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+  gap: 0.5vw;
+}
+.ebantyai .eblan_card li .shb {
+  width: 100%;
+  height: 2vh;
+  border: 1px #fff solid;
+}
+.ebantyai .eblan_card li .shiz_bar {
+  width: 100%;
+  height: 100%;
+}
+.ebantyai li:first-child {
+  margin: 0;
+  grid-column: span 2;
+}
+.ebantyai li:nth-child(4n), .ebantyai li:last-child {
+  grid-column: span 2;
+}
+.ebantyai li:nth-child(3) {
+  align-items: start;
+}
+.ebantyai li:last-child {
+  margin: 0;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.ebantyai li:last-child .admin_element {
+  margin: 1vh 0 0 0;
+}
+
+.button_open__input_card {
+  margin: 5vh 0 0 68.5vw;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #e0e0e0;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: all 0.5s ease;
+}
+
+.button_open__input_card:hover {
+  font-size: 1.25rem;
+  margin: 5vh 0 0 67vw;
+  transition: all 0.5s ease;
+}
+
+.input_card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(80, 80, 80, 0.75);
+}
+.input_card form {
+  padding: 30px;
+  width: 25vw;
+  border-radius: 10px;
+  background-color: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+}
+.input_card form input, .input_card form textarea {
+  padding: 5px;
+  font-size: 1.25rem;
+  border: none;
+  border-radius: 2.5px;
+}
+.input_card form label {
+  margin: 1vh 0 0 0;
+}
+.input_card form label:first-child {
+  margin: 0;
+}
+.input_card form .age_n_shiz {
+  margin: 1vh 0 0 0;
+  display: flex;
+}
+.input_card form .age_n_shiz .age {
+  flex: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  flex-direction: column;
+}
+.input_card form .age_n_shiz .shiz {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+.input_card form .age_n_shiz .shiz div {
+  width: 100%;
+}
+.input_card form .age_n_shiz .shiz .datalist_labels {
+  width: 85%;
+  margin: 0 0 0 2.5%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+}
+.input_card form .age_n_shiz input {
+  width: 90%;
+}
+.input_card form .submit {
+  margin: 2.5vh 0 0 0;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  background-color: #bbbbbb;
+  transition: all 0.5s ease;
+}
+.input_card form .submit:hover {
+  font-size: 1.75rem;
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+
+/*# sourceMappingURL=people.css.map */
