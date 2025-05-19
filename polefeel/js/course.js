@@ -59,7 +59,7 @@ function showQueue() {
 }
 
 async function apiTelegramMessage(action) {
-   const token = "8077537812:AAHp1kN-VJ5GD_GKCt4z7myRZVdqyfjKLr8";
+   const token = "secret";
    const chat_id = "-4643503706";
    let message = '';
    let name = '';
