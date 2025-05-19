@@ -65,7 +65,7 @@ function addEntityQueue() {
 function sendMesseng($act) {
    error_reporting(~0);
    ini_set('display_errors', 1);
-   // $apiToken = "8077537812:AAHp1kN-VJ5GD_GKCt4z7myRZVdqyfjKLr8";
+   // $apiToken = "secret";
    // $message = "Это текстовое сообщение отправлено с помощью нашего Telegram-бота";
    // $data = [
    //    'chat_id' => '-1002510993362',
