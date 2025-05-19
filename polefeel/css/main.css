@@ -383,4 +383,35 @@ main .admin_login_card form .login_button {
   margin: 2.5vh 0 0 0;
 }
 
+@media (max-width: 1440px) {
+  body {
+    background-color: aqua;
+  }
+}
+@media (max-width: 1224px) {
+  body {
+    background-color: rgb(0, 255, 106);
+  }
+}
+@media (max-width: 768px) {
+  body {
+    background-color: rgb(38, 0, 255);
+  }
+}
+@media (max-width: 540px) {
+  body {
+    background-color: rgb(212, 0, 255);
+  }
+}
+@media (max-width: 432px) {
+  body {
+    background-color: rgb(255, 0, 0);
+  }
+}
+@media (max-width: 375px) {
+  body {
+    background-color: aqua;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
