@@ -1,0 +1,51 @@
+.add_video_card {
+   position: absolute;
+   top: 0; left: 0;
+   width: 100%;
+   height: 100%;
+   display: none;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(80, 80, 80, .75);
+   font-size: 1.5rem;
+
+   form {
+      padding: 30px;
+      width: 25vw;
+      border-radius: 10px;
+      background-color: #efefef;
+      display: grid;
+
+      label {
+         margin: 2.5vh 0 0 0;
+      }
+
+      label:first-child {
+         margin: 0;
+      }
+
+      .video_button {
+         margin: 2.5vh 0 0 0;
+      }
+   }
+}
+
+.courses_button {
+   font-size: 1rem;
+   padding: 20px;
+   border: none;
+   // border-radius: 10px;
+   transition: all .5s ease;
+   
+   a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: .5vw;
+   }
+}
+
+.courses_button:hover {
+   font-size: 1.25rem;
+   transition: all .5s ease;
+}
